@@ -1,0 +1,13 @@
+Host github.com-peter-grainger
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa_work
+  IdentitiesOnly yes
+
+Host github.com-peterjgrainger
+  HostName github.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/id_rsa_personal
+  IdentitiesOnly yes
+
+Host * AddKeysToAgent yes UseKeychain yes
